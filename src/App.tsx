@@ -1,7 +1,12 @@
 import './App.scss';
+import { Loader } from './components/Loader';
 
 function App() {
-  return <></>;
+  return (
+    <>
+      <Loader />
+    </>
+  );
 }
 
 export default App;
