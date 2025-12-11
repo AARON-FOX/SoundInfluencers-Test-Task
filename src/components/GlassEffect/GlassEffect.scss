@@ -1,0 +1,49 @@
+
+.glass-container {
+  position: relative;
+
+  padding: 20px 0 0 0;
+
+  width: 878px;
+
+  &__text {
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 100%;
+
+    margin: 0;
+  }
+}
+
+.glass-logo {
+  position: absolute;
+  top: 44px;
+  left: 346px;
+
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  box-sizing: border-box;
+
+  background-color: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(3px);
+
+  height: 36px;
+
+  padding: 10.5px 18px;
+  border-radius: 8px;
+
+  &__logo {
+    background-image: url('/images/soundInfluencers-logo.svg');
+    background-size: cover;
+
+    width: 14px;
+    height: 15px;
+  }
+
+  &__name {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    margin: 0;
+  }
+}

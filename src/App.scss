@@ -1,1 +1,15 @@
 @use './components/Loader/Loader.scss';
+
+.loader-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 160px;
+  background-color: rgb(106, 107, 108);
+}
+
+.glass-block {
+  display: flex;
+  justify-content: center;
+}

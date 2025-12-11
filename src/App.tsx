@@ -1,10 +1,16 @@
 import './App.scss';
+import { GlassEffect } from './components/GlassEffect';
 import { Loader } from './components/Loader';
 
 function App() {
   return (
     <>
-      <Loader />
+      <div className="loader-block">
+        <Loader />
+      </div>
+      <div className="glass-block">
+        <GlassEffect />
+      </div>
     </>
   );
 }
