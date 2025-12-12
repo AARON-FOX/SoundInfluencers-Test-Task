@@ -24,9 +24,14 @@
   gap: 8px;
   align-items: center;
   box-sizing: border-box;
+  box-shadow:
+    inset 1px 0 0 0 rgba(255, 255, 255, 0.8),
+    inset 0 1px 0 0 rgba(255, 255, 255, 0.8),
+    inset 0 0 1px 0 rgba(255, 255, 255, 0.8),
+    inset 0 0 0 1px rgba(255, 255, 255, 0.8);
 
   background-color: rgba(255, 255, 255, 0.5);
-  backdrop-filter: blur(3px);
+  backdrop-filter: blur(2px);
 
   height: 36px;
 
@@ -34,11 +39,14 @@
   border-radius: 8px;
 
   &__logo {
-    background-image: url('/images/soundInfluencers-logo.svg');
-    background-size: cover;
-
+    display: block;
     width: 14px;
     height: 15px;
+
+    background-image: url('/images/soundInfluencers-logo.svg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
   }
 
   &__name {
